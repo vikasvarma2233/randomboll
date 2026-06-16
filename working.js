@@ -47,7 +47,7 @@ const logic = ()=>{
         tm.textContent = time;
         randombox();
 
-    },1000)
+    },700)
 
     setTimeout(()=>{
         clearInterval(int);
@@ -55,7 +55,7 @@ const logic = ()=>{
         gov.style.display = "flex"
         ck = false;
         // scc.textContent= 0;
-    },10000)
+    },20000)
 }
 
 
